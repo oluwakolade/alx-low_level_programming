@@ -1,17 +1,16 @@
-#include <unistd.h>
 #include "main.h"
 /**
- *main -check description
- *Description: print the word _putchar follwed by a new line.
- *Return :0.
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 char *sh = "_putchar";
-while (*sh){
+while (*sh)
+{
 _putchar(*sh);
 sh++;
 }
 _putchar('\n');
-return(0);
+ return (0);
 }
